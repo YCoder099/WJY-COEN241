@@ -1,0 +1,165 @@
+Docker CPU test 2 prime-30000 memory-4g cpu-2
+******* No.1
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20-6ef8a4d4d7 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 30000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   183.61
+
+General statistics:
+    total time:                          8.0045s
+    total number of events:              1470
+
+Latency (ms):
+         min:                                    4.68
+         avg:                                    5.44
+         max:                                   51.72
+         95th percentile:                        6.21
+         sum:                                 8000.43
+
+Threads fairness:
+    events (avg/stddev):           1470.0000/0.00
+    execution time (avg/stddev):   8.0004/0.00
+
+******* No.2
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20-6ef8a4d4d7 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 30000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   178.28
+
+General statistics:
+    total time:                          8.0023s
+    total number of events:              1427
+
+Latency (ms):
+         min:                                    4.94
+         avg:                                    5.60
+         max:                                   54.25
+         95th percentile:                        6.91
+         sum:                                 7997.54
+
+Threads fairness:
+    events (avg/stddev):           1427.0000/0.00
+    execution time (avg/stddev):   7.9975/0.00
+
+******* No.3
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20-6ef8a4d4d7 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 30000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   182.55
+
+General statistics:
+    total time:                          8.0016s
+    total number of events:              1461
+
+Latency (ms):
+         min:                                    4.71
+         avg:                                    5.47
+         max:                                   63.81
+         95th percentile:                        6.67
+         sum:                                 7997.04
+
+Threads fairness:
+    events (avg/stddev):           1461.0000/0.00
+    execution time (avg/stddev):   7.9970/0.00
+
+******* No.4
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+sysbench 1.0.20-6ef8a4d4d7 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 30000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   197.39
+
+General statistics:
+    total time:                          8.0024s
+    total number of events:              1580
+
+Latency (ms):
+         min:                                    4.94
+         avg:                                    5.06
+         max:                                   10.13
+         95th percentile:                        5.37
+         sum:                                 8000.00
+
+Threads fairness:
+    events (avg/stddev):           1580.0000/0.00
+    execution time (avg/stddev):   8.0000/0.00
+
+******* No.5
+sysbench 1.0.20-6ef8a4d4d7 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 30000
+
+Initializing worker threads...
+
+WARNING: the --test option is deprecated. You can pass a script name or path on the command line without any options.
+Threads started!
+
+CPU speed:
+    events per second:   197.95
+
+General statistics:
+    total time:                          8.0003s
+    total number of events:              1584
+
+Latency (ms):
+         min:                                    4.75
+         avg:                                    5.05
+         max:                                    8.31
+         95th percentile:                        5.28
+         sum:                                 7998.04
+
+Threads fairness:
+    events (avg/stddev):           1584.0000/0.00
+    execution time (avg/stddev):   7.9980/0.00
